@@ -1,0 +1,6 @@
+When Should I Use Inheritance?
+Inheritance is a powerful tool, but it is a really bad idea to try to overuse it. Inheritance should only be used when all instances of a child class are also instances of the parent class.
+
+When a child class inherits from a parent, it inherits everything. If you only want to share some functionality, inheritance is probably not the best answer. Better to simply share some functions, or maybe make a new parent class that both classes can inherit from.
+
+All cats are animals but not all animals are cats:
